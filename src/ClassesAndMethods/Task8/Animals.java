@@ -133,24 +133,28 @@ class Horse extends Animals {
 }
 
 class Vet {
-    public static void treatAnimal(Animals animals) {
-        System.out.println(animals);
+    public static void treatAnimal(Animals... vars) {
+
+        for (Animals e : vars) {
+            System.out.print(e);
+        }
     }
 
     public static void main(String[] args) {
+
         Cat cat = new Cat("корм", "на улице");
         cat.eat();
         cat.sleep();
-        treatAnimal(cat);
 
         Dog dog = new Dog("мясо", "дома");
         dog.eat();
         dog.sleep();
-        treatAnimal(dog);
 
         Horse horse = new Horse("яблоки", "на ферме");
         horse.eat();
         horse.sleep();
-        treatAnimal(horse);
+
+        Animals[] animals = {cat, dog, horse};
+        treatAnimal(animals);
     }
 }
