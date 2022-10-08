@@ -17,15 +17,13 @@ public class Animals {
     }
 
     public void sleep() {
-        System.out.print(" спит");
+        System.out.print(" спит" + "\n");
     }
 
     @Override
     public String toString() {
-        return "Animals{" +
-                "food='" + food + '\'' +
-                ", location='" + location + '\'' +
-                '}';
+        return "food='" + food + '\'' +
+                ", location='" + location + '\'' + "\n";
     }
 }
 
@@ -41,20 +39,26 @@ class Dog extends Animals {
     public void makeNoise() {
         System.out.print(name);
         super.makeNoise();
-        System.out.println(noise);
+        System.out.println(noise + "\n");
     }
 
     @Override
     public void eat() {
         System.out.print(name);
         super.eat();
-        System.out.println(food);
+        System.out.print(food + "\n");
     }
 
     @Override
     public void sleep() {
-        System.out.println(name);
+        System.out.print(name);
         super.sleep();
+    }
+
+    @Override
+    public String toString() {
+        return "Dog food='" + food + '\'' +
+                ", location='" + location + '\'' + "\n";
     }
 }
 
@@ -70,20 +74,26 @@ class Cat extends Animals {
     public void makeNoise() {
         System.out.print(name);
         super.makeNoise();
-        System.out.println(noise);
+        System.out.println(noise + "\n");
     }
 
     @Override
     public void eat() {
         System.out.print(name);
         super.eat();
-        System.out.print(food);
+        System.out.print(food + "\n");
     }
 
     @Override
     public void sleep() {
         System.out.print(name);
         super.sleep();
+    }
+
+    @Override
+    public String toString() {
+        return "Cat food='" + food + '\'' +
+                ", location='" + location + '\'' + "\n";
     }
 }
 
@@ -99,20 +109,26 @@ class Horse extends Animals {
     public void makeNoise() {
         System.out.print(name);
         super.makeNoise();
-        System.out.println(noise);
+        System.out.println(noise + "\n");
     }
 
     @Override
     public void eat() {
         System.out.print(name);
         super.eat();
-        System.out.println(food);
+        System.out.print(food + "\n");
     }
 
     @Override
     public void sleep() {
-        System.out.println(name);
+        System.out.print(name);
         super.sleep();
+    }
+
+    @Override
+    public String toString() {
+        return "Horse food='" + food + '\'' +
+                ", location='" + location + '\'' + "\n";
     }
 }
 
@@ -122,11 +138,19 @@ class Vet {
     }
 
     public static void main(String[] args) {
-        Animals cat = new Cat("корм", "на улице");
+        Cat cat = new Cat("корм", "на улице");
         cat.eat();
-        System.out.println();
         cat.sleep();
-        System.out.println();
         treatAnimal(cat);
+
+        Dog dog = new Dog("мясо", "дома");
+        dog.eat();
+        dog.sleep();
+        treatAnimal(dog);
+
+        Horse horse = new Horse("яблоки", "на ферме");
+        horse.eat();
+        horse.sleep();
+        treatAnimal(horse);
     }
 }
