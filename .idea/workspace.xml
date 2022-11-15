@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a2af898-0624-4b4f-830a-13bf72647cea" name="Changes" comment="Task10">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamCloudsTasks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Tast1/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Multithreading/Tast1/Task1.txt" afterDir="false" />
+    <list default="true" id="5a2af898-0624-4b4f-830a-13bf72647cea" name="Changes" comment="Task2">
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Task3/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Multithreading/Task3/Task3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +52,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IntelliJ IDEA 2022.1.2\IDEA projects\ExamCloudsTasks\src\Multithreading\Task3" />
       <recent name="C:\IntelliJ IDEA 2022.1.2\IDEA projects\ExamCloudsTasks\src\Multithreading\Task2" />
       <recent name="C:\IntelliJ IDEA 2022.1.2\IDEA projects\ExamCloudsTasks\src\Multithreading\Tast1" />
       <recent name="E:\lessons\ExamCloudsTasks\src\WordStatic\Task2" />
       <recent name="E:\lessons\ExamCloudsTasks\src\WordStatic\Task1" />
-      <recent name="E:\lessons\ExamCloudsTasks\src\ClassesAndMethods\Task10" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.Multithreading.Task3.Task">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassesAndMethods.Task9.Main" />
       <module name="ExamCloudsTasks" />
@@ -84,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WordStatic.Task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Multithreading.Task3.Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Task3.Task" />
+      <module name="ExamCloudsTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Task3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassesAndMethods.Task8.Vet" />
-      <module name="ExamCloudsTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassesAndMethods.Task8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multithreading.Task3.Task" />
         <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Multiply" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Vet" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +148,7 @@
       <workItem from="1665309773773" duration="8982000" />
       <workItem from="1665409928661" duration="3665000" />
       <workItem from="1666919176573" duration="11000" />
-      <workItem from="1668510489218" duration="796000" />
+      <workItem from="1668510489218" duration="3678000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignore">
       <created>1665139008465</created>
@@ -260,7 +255,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665318367756</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Task1">
+      <created>1668511349776</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511349776</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Task2">
+      <created>1668511580051</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511580051</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,8 +288,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add gitignore" />
-    <MESSAGE value="Task1" />
-    <MESSAGE value="Task2" />
     <MESSAGE value="Task3" />
     <MESSAGE value="Task4" />
     <MESSAGE value="Task5" />
@@ -289,6 +296,8 @@
     <MESSAGE value="Task8" />
     <MESSAGE value="Task9" />
     <MESSAGE value="Task10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task10" />
+    <MESSAGE value="Task1" />
+    <MESSAGE value="Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2" />
   </component>
 </project>
