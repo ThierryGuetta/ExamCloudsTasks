@@ -57,27 +57,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IntelliJ IDEA 2022.1.2\IDEA projects\ExamCloudsTasks\src\Multithreading\Task2" />
+      <recent name="C:\IntelliJ IDEA 2022.1.2\IDEA projects\ExamCloudsTasks\src\Multithreading\Tast1" />
       <recent name="E:\lessons\ExamCloudsTasks\src\WordStatic\Task2" />
       <recent name="E:\lessons\ExamCloudsTasks\src\WordStatic\Task1" />
       <recent name="E:\lessons\ExamCloudsTasks\src\ClassesAndMethods\Task10" />
-      <recent name="E:\lessons\ExamCloudsTasks\src\ClassesAndMethods\Task9" />
-      <recent name="E:\lessons\ExamCloudsTasks\src\ClassesAndMethods\Task8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassesAndMethods.Task7.com.company.vehicles.Car" />
-      <module name="ExamCloudsTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClassesAndMethods.Task7.com.company.vehicles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Task2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassesAndMethods.Task9.Main" />
       <module name="ExamCloudsTasks" />
@@ -117,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Task2.Task2" />
+      <module name="ExamCloudsTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Multithreading.Task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Vet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassesAndMethods.Task8.Vet" />
       <module name="ExamCloudsTasks" />
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2" />
         <item itemvalue="Application.Task" />
         <item itemvalue="Application.Multiply" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Vet" />
-        <item itemvalue="Application.Car" />
       </list>
     </recent_temporary>
   </component>
